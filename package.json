@@ -1,0 +1,16 @@
+{
+  "name": "tryjest",
+  "version": "0.0.1",
+  "description": "learn base conception of Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning",
+    "jest",
+    "education"
+  ],
+  "author": "Sergey Sinitsyn",
+  "license": "ISC"
+}
