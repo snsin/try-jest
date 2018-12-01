@@ -3,3 +3,6 @@ start:
 
 run:
 	npx babel-node -- src/code/start.js
+
+lint:
+	npx eslint .
