@@ -4,7 +4,7 @@
   "description": "learn base conception of Jest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "learning",
@@ -20,8 +20,11 @@
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.6",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1"
   }
 }
