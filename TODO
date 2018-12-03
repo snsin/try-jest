@@ -6,8 +6,12 @@ SICP:
   ex 2.29:
     renew: 
       ☐ To recall knowlegde about language @15m
-      ☐ Get lisp-like list implementation @20m
+      ✔ Get lisp-like list implementation @20m @started(18-12-03 21:27) @done(18-12-03 21:40) @lasted(13m11s)
     ☐ a. create selectors for left branch and right branch @20m
     ☐ b. create total weight procedure @30m
     ☐ c. create isBalanced predicate @40m
     ☐ d. change representation of constructor from lists to pairs @1h
+
+TOOLS:
+  Git flow:
+    ☐ learn basic conceptions of git flow @2h

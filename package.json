@@ -14,7 +14,8 @@
   "author": "Sergey Sinitsyn",
   "license": "ISC",
   "dependencies": {
-    "hexlet-pairs": "^1.0.8"
+    "hexlet-pairs": "^1.0.8",
+    "hexlet-pairs-data": "^1.0.8"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
