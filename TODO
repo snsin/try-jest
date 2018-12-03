@@ -1,5 +1,13 @@
 Project:
-  ✔ Learn vscode tascks to launch ES6 files siply @1h @started(18-12-02 19:25) @done(18-12-02 20:10) @lasted(45m6s)
+  ✔ Learn vscode tascks to launch ES6 files simply @1h @started(18-12-02 19:25) @done(18-12-02 20:10) @lasted(45m6s)
   Subtask:
     ✔ First copy simple task to examine and try @15m @started(18-12-02 19:07) @done(18-12-02 19:17) @lasted(10m14s)
-    
+SICP:
+  ex 2.29:
+    renew: 
+      ☐ To recall knowlegde about language @15m
+      ☐ Get lisp-like list implementation @20m
+    ☐ a. create selectors for left branch and right branch @20m
+    ☐ b. create total weight procedure @30m
+    ☐ c. create isBalanced predicate @40m
+    ☐ d. change representation of constructor from lists to pairs @1h
