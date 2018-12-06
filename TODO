@@ -8,8 +8,8 @@ SICP:
       ✔ To recall knowlegde about language @15m @started(18-12-03 21:48) @done(18-12-03 22:14) @lasted(26m14s)
       ✔ Get lisp-like list implementation @20m @started(18-12-03 21:27) @done(18-12-03 21:40) @lasted(13m11s)
     ✔ a. create selectors for left branch and right branch @20m @started(18-12-04 22:00) @done(18-12-04 22:52) @lasted(52m57s)
-    ☐ b. create total weight procedure @30m
-    ☐ c. create isBalanced predicate @40m
+    ✔ b. create total weight procedure @30m @started(18-12-06 23:06) @done(18-12-06 23:27) @lasted(21m12s)
+    ✔ c. create isBalanced predicate @40m @started(18-12-06 23:06) @done(18-12-07 00:09) @lasted(1h3m51s)
       this link may be usefull for explanation of balanced state (peek picture first)
       http://www.billthelizard.com/2011/02/sicp-229-binary-mobiles.html
     ☐ d. change representation of constructor from lises to pairs @1h
