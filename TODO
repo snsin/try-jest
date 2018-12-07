@@ -12,7 +12,7 @@ SICP:
     ✔ c. create isBalanced predicate @40m @started(18-12-06 23:06) @done(18-12-07 00:09) @lasted(1h3m51s)
       this link may be usefull for explanation of balanced state (peek picture first)
       http://www.billthelizard.com/2011/02/sicp-229-binary-mobiles.html
-    ☐ d. change representation of constructor from lises to pairs @1h
+    ✔ d. change representation of constructor from lises to pairs @1h @started(18-12-07 21:01) @done(18-12-07 22:09) @lasted(1h8m39s)
 
 TOOLS:
   Git flow:
