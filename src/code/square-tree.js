@@ -14,9 +14,16 @@ export const squareTree = (coll = emptyList) => {
   return ds.concat(ds.l(head ** 2), squareTree(rest));
 };
 
-const squareTreeMap = (coll = emptyList) => {
+export const squareTreeMap = (coll = emptyList) => {
   if (ds.isEmpty(coll)) return emptyList;
   return ds.map(e => (ds.isList(e) ? squareTreeMap(e) : e ** 2), coll);
 };
 
-export default squareTreeMap;
+const treeMap = (fn, coll) => {
+  if (!coll && !ds.isList(coll)) {
+    return null;
+  }
+  return ds.map(e => (ds.isList(e) ? treeMap(fn, e) : fn(e)), coll);
+};
+
+export default tree => treeMap(e => e ** 2, tree);
