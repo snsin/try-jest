@@ -7,6 +7,12 @@ describe('square-tree implemented without map()', () => {
   test('empty tree', () => {
     expect(ds.toString(squareTree(ds.l()))).toBe('()');
   });
+  test('no argument', () => {
+    expect(squareTree()).toBe(null);
+  });
+  test('argument of wrong type', () => {
+    expect(squareTree(8)).toBeNull();
+  });
   test('one level tree', () => {
     expect(ds.toString(squareTree(smallTree))).toBe('(1, 4, 9, 16)');
   });
